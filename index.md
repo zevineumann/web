@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[link](https://github.com/zevineumann/web/edit/master/index.html)
+[link](https://github.com/zevineumann/web/blob/master/index.html)
 
 You can use the [editor on GitHub](https://github.com/zevineumann/web/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
