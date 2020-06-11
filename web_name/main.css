@@ -1,0 +1,40 @@
+.alert {
+	color:red;
+	text-decoration:underline;
+	font-size:20px;
+	text-align:center;
+}
+
+.big {
+	font-size: 20px;
+	text-align:center;
+	color:white;
+	background-color:blue;
+}
+p.center {
+	text-align:center;
+	font-size: 25px;
+	color:red;
+}
+.yellow {
+	background-color: yellow;
+	color:red;
+	width:1000;
+}
+.blue{
+	color:blue;
+	font-size: 30px;
+	text-align:center;
+	border: 2px solid Violet;
+}
+.alertt {
+	color:blue;
+	text-align:center;
+	background-color:MediumSeaGreen;
+	font-size: 40px;
+}
+
+
+.body {
+  background-image: url("IMG_3306.JPG");
+}

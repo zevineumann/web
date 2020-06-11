@@ -1,0 +1,27 @@
+
+.warning {
+	text-align: center;
+	color: red;
+	font-size: 30px;
+	text-decoration:underline;
+}
+
+h1 {
+	text-align: center;
+}
+
+.a {
+	text-align: center;
+	color: red;
+	font-size: 50px;
+}
+
+.button {
+	margin-left: 700px;
+	size: 300px;
+}
+
+.body {
+	background-image: url("IMG_3306-Copy.JPG");	
+	background-size: 100% 100%;	
+}
