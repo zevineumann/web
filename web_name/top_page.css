@@ -7,7 +7,6 @@
 	margin-left:200px;
 	margin-right:200px;
 	text-shadow: 4px 4px 16px red;
-	font-family:Sofia;
 } 
 
 .smile{
@@ -28,7 +27,6 @@
 	color:red;
 	width:1000;
 	border-radius:20px;
-	font-family:Sofia;
 }
 
 .body{
@@ -38,7 +36,6 @@
 
 .button {
 	border-radius:20px;
-	font-family:Sofia;
 }	
 
 .round {
