@@ -11,17 +11,17 @@ h1 {
 }
 
 .a {
-	text-align: center;
+	margin-left: 50%;
 	color: red;
 	font-size: 50px;
+	border: 15px solid green;
+	padding: 10px;
 }
 
-.button {
-	margin-left: 700px;
-	size: 300px;
-}
-
-.body {
-	background-image: url("IMG_3306-Copy.JPG");	
-	background-size: 100% 100%;	
+.b {
+	margin-left: 67%;
+	color: green;
+	font-size: 50px;
+	border: 15px solid red;
+	padding: 10px;
 }
