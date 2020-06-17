@@ -3,7 +3,7 @@ $(document).ready(function(){
 	boom1 = setInterval(seeboom1, 300);
 	boom2 = setInterval(seeboom2, 1000);
 	$("#tank").animate({"margin-left": '50px'},3000,function(){
-		$("#jeep").animate({"margin-left": '1700px'},5000);
+		setInterval(jeep, 5000);
 		$("#button").click(function(){
 			$("#bullet").css("transform", 'none');
 			$("#boom").addClass("see");
@@ -65,6 +65,16 @@ function fallbullet() {
 	$("#bullet").animate({"marginTop": "200"},500)
 }
 
+function upirbutton () {
+	var ubutton = document.getElementById("disu");
+	ubutton.id = "button";
+}
+
+function jeep () {
+	$("#jeep").animate({"margin-left": '1700px'},5000);
+	//var jeep = Math.floor(Math.random() * 101) -200;
+}
+
 /*function rightclick() {
 	var soldier = document.getElementById('soldier2').src;
 	var soldierr = soldier.src;
@@ -86,7 +96,3 @@ function fallbullet() {
 	}
 }*/
 
-function upirbutton () {
-	var ubutton = document.getElementById("disu");
-	ubutton.id = "button";
-}
