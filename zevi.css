@@ -36,9 +36,10 @@ h1 {
 }
 
 .box {
-  margin-left: 500px;
-  width: 100px;
-  height: 100px;
+	margin-top: 100px;
+  margin-left: 250px;
+  width: 50px;
+  height: 50px;
   background-color: red;
   position: relative;
   animation-name: example;
@@ -47,17 +48,17 @@ h1 {
 }
 
 @keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:100px;}
-  75%  {background-color:green; left:0px; top:100px;}
-  100% {background-color:red; left:0px; top:0px;}
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
 }
 
 .box1 {
-  margin-left: 600px;
-  width: 100px;
-  height: 100px;
+  margin-left: 300px;
+  width: 50px;
+  height: 50px;
   background-color: red;
   position: relative;
   animation-name: example;
@@ -66,9 +67,10 @@ h1 {
 }
 
 .box2 {
-  margin-left: 500px;
-  width: 100px;
-  height: 100px;
+  margin-top: -100px;
+  margin-left: 350px;
+  width: 50px;
+  height: 50px;
   background-color: red;
   position: relative;
   animation-name: example;
@@ -77,10 +79,10 @@ h1 {
 }
 
 .box3 {
-  margin-top: -200px;
-  margin-left: 400px;
-  width: 100px;
-  height: 100px;
+  margin-top: -100px;
+  margin-left: 300px;
+  width: 50px;
+  height: 50px;
   background-color: red;
   position: relative;
   animation-name: example;
