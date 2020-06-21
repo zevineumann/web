@@ -30,6 +30,13 @@ h1 {
 	border-radius: 25px;
 }
 
+.c {
+	margin-left: 30%;
+	color: green;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
 .div {
 	margin-right: 180px;
 	margin-left: 180px;
