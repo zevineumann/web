@@ -5,8 +5,8 @@ $(document).ready(function(){
 	});
 	
 	$("#MoveButton").mouseover(function(){
-		var randomtop = Math.floor(Math.random() * 500) -500;
-		var randomleft = Math.floor(Math.random() * 200);
+		var randomtop = Math.floor(Math.random() * 400) -500;
+		var randomleft = Math.floor(Math.random() * 400);
 		document.getElementById('MoveButton').style.marginTop = randomtop + "px";
 		document.getElementById('MoveButton').style.marginLeft = randomleft + "px";
 	});

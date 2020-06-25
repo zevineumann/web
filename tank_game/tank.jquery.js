@@ -25,6 +25,10 @@ $(document).ready(function(){
 	});
 });
 
+var soldier1 : function() {
+	var soldier = document.getElementById('soldier1');
+}
+
 function fall() {
 	fallsoldier("pic soldier/deadsoldier.png","250px","250px","450px");
 }
