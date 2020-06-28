@@ -112,16 +112,20 @@ h1 {
 	.MoveButton {
 	display: none;
 	}
+	
 	.warning {
 	font-size: 20px;
 	}
+	
 	.game {
 	font-size: 30px;
 	margin-left: 20px;
 	}
+	
 	.stuff {
 	font-size: 30px;
 	}
+	
 	.bug {
 	font-size: 30px;
 	}

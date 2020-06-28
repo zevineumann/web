@@ -69,14 +69,16 @@ function fallbullet() {
 	$("#bullet").animate({"marginTop": "200"},500)
 }
 
-function upirbutton () {
+function upirbutton() {
 	var ubutton = document.getElementById("disu");
 	ubutton.id = "button";
 }
 
-function jeep () {
-	$("#jeep").animate({"margin-left": '1700px'},5000);
-	//var jeep = Math.floor(Math.random() * 101) -200;
+function jeep() {
+	$("#jeep").animate({"margin-left": '1700px'},5000,function(){
+	var jeep = Math.floor(Math.random() * -6000);
+	$("#jeep").css({"margin-left": jeep});
+	});
 }
 
 /*function rightclick() {
