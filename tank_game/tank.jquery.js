@@ -11,7 +11,7 @@ $(document).ready(function(){
 			disbutton();
 			$("#bullet").animate({"margin-left": '800px'},300,function(){
 				$("#bullet").css("transform", 'rotate(20deg)');
-				$("#bullet").animate({"margin-left": "1100px", "marginTop": '500px'},300,function() {
+				$("#bullet").animate({"margin-left": "1100px", "margin-top": '500px'},300,function() {
 				$("#bullet").css({"margin-left": "545px", "margin-top": "400px"});
 				$("#bullet").removeClass("see");
 				$("#boom").removeClass("see");
@@ -25,7 +25,7 @@ $(document).ready(function(){
 	});
 });
 
-var soldier1 : function() {
+function soldier1() {
 	var soldier = document.getElementById('soldier1');
 }
 
