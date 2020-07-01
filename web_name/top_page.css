@@ -14,7 +14,7 @@
 	font-size: 60px;
 }
 
-.center{
+.center {
 	text-align:center;
 	font-size: 25px;
 	border-radius:20px;
@@ -22,16 +22,17 @@
 }
 
 
-.fieldset{
+.fieldset {
 	background-color:yellow;
 	color:red;
 	width:1000;
 	border-radius:20px;
 }
 
-.body{
+.body {
  	background-image: url("IMG_3306.JPG");	
-	background-size: 100% 100%;	
+	width: 100%;
+	height: 100%;
 }
 
 .button {
@@ -65,4 +66,15 @@ p.center {
 	font-size: 30px;
 	text-align:center;
 	border: 2px solid Violet;
+}
+
+@media screen and (max-width: 600px) {
+	.alert {
+	font-size: 50px;
+	margin-right:-445px;
+	text-align:center;
+	}
+	.center {
+	font-size: 50px;
+	}
 }
