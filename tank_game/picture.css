@@ -75,6 +75,7 @@
 .fire {
 	color:red;
 	position:fixed;
+	margin-left:50px;
 }
 
 .soldier1 {
@@ -97,4 +98,9 @@
 
 .see { 
 	display: block;
+}
+
+.button {
+	color:red;
+	position:fixed;
 }
