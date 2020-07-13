@@ -1,4 +1,8 @@
 
+.body{
+	background-color: grey;
+}
+
 .warning {
 	text-align: center;
 	color: red;
