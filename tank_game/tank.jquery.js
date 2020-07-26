@@ -35,18 +35,16 @@ $(document).ready(function(){
 function tocom() {
 	var soldier1 = document.getElementById('soldier1');
 	var soldierleft = soldier1.style.marginLeft;
-	var soldiertop = soldier1.style.marginTop;
 	var soldierwidth = soldier1.style.width;
 	var soldierheight = soldier1.style.height;
 	
 	var bullet1 = document.getElementById('bullet');
 	var bulletleft = bullet1.style.marginLeft;
-	var bullettop = bullet1.style.marginTop;
 	var bulletwidth = bullet1.style.width;
 	var bulletheight = bullet1.style.height;
 
-    bullet = new component(bulletwidth, bulletheight, bulletleft, bullettop);
-    mysoldier  = new component(soldierwidth, soldierheight, soldierleft, soldiertop);    
+    bullet = new component(bulletwidth, bulletheight, bulletleft);
+    mysoldier  = new component(soldierwidth, soldierheight, soldierleft);    
 }
 
 function soldier1() {
@@ -105,25 +103,19 @@ function jeep() {
 	});
 }
 
-function component(width, height, left, toop) {
+function component(width, height, left) {
     this.width = width;
-    this.height = height;   
-    this.toop = toop;
+    this.height = height;  
     this.left = left;    
-   
+
     this.crashWith = function(soldier) {
-        var bulletleft = this.left;
+        
         var bulletright = this.left;
-        var bullettop = this.toop;
-        var bulletbottom = this.toop + (this.height);
         var soldierleft = soldier.left;
-        var soldierright = soldier.left + (soldier.width);
-        var soldiertop = soldier.toop;
-        var soldierbottom = soldier.toop + (soldier.height);
-        var crash = true;
-        if ((bulletbottom < soldiertop) || (bullettop > soldierbottom) || (bulletright < soldierleft) || (bulletleft > soldierright)) {
-            crash = false;
-			console.log("yj");
+        var crash = false;
+        if (bulletright > soldierleft) {
+            crash = true;
+			
         }
         return crash;
     }

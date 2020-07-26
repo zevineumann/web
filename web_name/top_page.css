@@ -21,10 +21,13 @@
 	color:red;
 }
 
+legend {
+	background-color:black;
+}
 
 .fieldset {
-	background-color:yellow;
-	color:red;
+	background-color:rgb(120,120,120);
+	color:violet;
 	width:80%;
 	border-radius:20px;
 }
