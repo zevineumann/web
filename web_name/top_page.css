@@ -14,6 +14,10 @@
 	font-size: 60px;
 }
 
+.blue {
+	font-size: 25px;
+}
+
 .center {
 	text-align:center;
 	font-size: 25px;
@@ -67,6 +71,6 @@ p.center {
 	font-size: 25px;
 	}
 	.button {
-	font-size: 25px;
+	font-size: 15px;
 	}
 }
