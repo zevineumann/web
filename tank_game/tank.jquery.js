@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$("#tank").animate({"margin-left": '50px'},3000,function(){
 		
 		$("#button").click(function(){
-			chek = setInterval(chek, 50);
+			chek_timer = setInterval(chek, 30);
 			$("#bullet").css("transform", 'none');
 			$("#boom").addClass("see");
 			$("#bullet").addClass("see");
@@ -17,12 +17,11 @@ $(document).ready(function(){
 				
 				$("#bullet").css("transform", 'rotate(20deg)');
 				$("#bullet").animate({"margin-left": "1100px", "margin-top": '500px'},300,function() {
-				
-				$("#bullet").css({"margin-left": "545px", "margin-top": "400px"});
-				$("#bullet").removeClass("see");
-				$("#boom").removeClass("see");
-				upirbutton();
-				clearInterval(chek);
+			
+					$("#bullet").css({"margin-left": "545px", "margin-top": "400px"});
+					$("#bullet").removeClass("see");
+					$("#boom").removeClass("see");
+					upirbutton();
 				});
 			});
 		});
@@ -33,18 +32,19 @@ $(document).ready(function(){
 	var mysoldier;
 	
 function tocom() {
-	var soldier1 = document.getElementById('soldier1');
-	var soldierleft = soldier1.style.marginLeft;
-	var soldierwidth = soldier1.style.width;
-	var soldierheight = soldier1.style.height;
-	
-	var bullet1 = document.getElementById('bullet');
-	var bulletleft = bullet1.style.marginLeft;
-	var bulletwidth = bullet1.style.width;
-	var bulletheight = bullet1.style.height;
+	var soldier1 = $("#soldier1");
+	var soldierleft = soldier1.css('margin-left');
+	var soldierwidth = soldier1.css('width');
+	var soldierheight = soldier1.css('height');
 
-    bullet = new component(bulletwidth, bulletheight, bulletleft);
-    mysoldier  = new component(soldierwidth, soldierheight, soldierleft);    
+	
+	var bullet1 = $("#bullet");
+	var bulletleft = bullet1.css('margin-left');
+	var bulletwidth = bullet1.css('width');
+	var bulletheight = bullet1.css('height');
+
+    bullet = new component(bullet1, bulletwidth, bulletheight, bulletleft);
+    mysoldier  = new component(soldier1, soldierwidth, soldierheight, soldierleft);    
 }
 
 function soldier1() {
@@ -103,28 +103,32 @@ function jeep() {
 	});
 }
 
-function component(width, height, left) {
+function component(elem, width, height, left) {
     this.width = width;
     this.height = height;  
-    this.left = left;    
+    this.left = left;   
+	this.newPos = function() {
+		this.left = elem.css('margin-left');       
+    }
 
     this.crashWith = function(soldier) {
         
-        var bulletright = this.left;
-        var soldierleft = soldier.left;
+        var bulletright = parseInt(this.left);
+        var soldierleft = parseInt(soldier.left);
         var crash = false;
         if (bulletright > soldierleft) {
             crash = true;
-			
         }
         return crash;
     }
 }
 
 function chek() {
+	bullet.newPos();
 	if (bullet.crashWith(mysoldier)) {
 		fallsoldier("pic soldier/deadsoldier3.png", "200px", "250px", "350px");
 		setTimeout(fall, 300);
 		clearInterval(boom2);
+		clearInterval(chek_timer);
     }
 }
