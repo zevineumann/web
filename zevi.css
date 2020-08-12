@@ -1,6 +1,14 @@
 
-.body{
+.body {
 	background-color: lightgrey;
+}
+
+.top_div {
+	background-color: lightblue;
+}
+
+.mid_div {
+	background-color: lightblue;
 }
 
 .warning {
@@ -59,23 +67,23 @@ h1 {
 
 @media screen and (max-width: 1024px) {
 	.MoveButton {
-	display: none;
+		display: none;
 	}
 	
 	.warning {
-	font-size: 20px;
+		font-size: 20px;
 	}
 	
 	.game {
-	font-size: 30px;
-	margin-left: 50px;
+		font-size: 30px;
+		margin-left: 50px;
 	}
 	
 	.stuff {
-	font-size: 30px;
+		font-size: 30px;
 	}
 
 	.bug {
-	font-size: 30px;
+		font-size: 30px;
 	}
 }

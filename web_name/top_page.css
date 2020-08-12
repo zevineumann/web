@@ -4,9 +4,7 @@
 	text-align:center;
 	background-color:MediumSeaGreen;
 	font-family:Sofia;
-	border-radius:20px;
 	text-shadow: 4px 4px 16px red;
-	width: 90%;
 } 
 
 .smile{
@@ -38,8 +36,8 @@ legend {
 
 .body {
  	background-image: url("IMG_3306.JPG");	
-	width: 100%;
-	height: 100%;
+	width: 98%;
+	height: 95%;
 }
 
 .button {
