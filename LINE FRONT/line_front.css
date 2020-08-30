@@ -5,6 +5,13 @@
 	position: fixed;
 }
 
+.div1 {
+	width: 100%;
+	height: 100%;
+	display: none;
+	background-color: black;
+}
+
 .bull {
 	width: 25;
 	height: 15;

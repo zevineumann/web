@@ -20,11 +20,12 @@ function start_planes_timer() {
 }
 
 function chek() {
-	if (life == 0 ) game_over();
+	if (life < 1 ) game_over();
 }
 
 function game_over() {
-	location.replace("./game_over.html?score="+score)
+	$("#div1").fadeIn(6000);
+	//location.replace("./game_over.html?score="+score)
 }
 
 function click_plane(elem) {
