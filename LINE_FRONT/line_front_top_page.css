@@ -38,6 +38,15 @@ body {
 	color: white;
 }
 
+.button2 {
+	margin-top: 20%;
+	margin-left: 80%;
+	position: fixed;
+	font-size: 22px;
+	background-color: green;
+	color: white;
+}
+
 .front::after {
 	content: " FRONT";
 	color: white;
