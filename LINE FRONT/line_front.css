@@ -1,0 +1,70 @@
+
+.plane {
+	height: 5px;
+	width: 15px;
+	position: fixed;
+}
+
+.bull {
+	width: 25;
+	height: 15;
+	position: fixed;
+}
+
+.smoke {
+	position: fixed;
+}
+
+.triangle-up {
+	width: 25px;
+	height: 100px;
+	background-color: rgb(255, 255, 0);
+	position: fixed;
+}
+
+body {
+	background-image: url("sky.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	position:fixed;
+	cursor: crosshair;
+}
+
+::-moz-selection { /* Code for Firefox */
+	background: none;
+}
+
+::selection {
+	background: none;
+}
+
+/*.score {
+	position:fixed;
+}*/
+
+.div_score {
+	position: fixed;
+	background-color: lightgray;
+	margin-left: 82%;
+    width: 18%;
+	color: rgb(255, 165, 0);
+	text-align: center;
+	bottom: 15px;
+	position: absolute;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.div_life {
+	position: fixed;
+	background-color: lightgray;
+    width: 15%;
+	margin-left: -15px;
+	color: rgb(255, 165, 0);
+	text-align: center;
+	bottom: 15px;
+	position: absolute;
+	border: 2px solid black;
+	border-radius: 8px;
+}

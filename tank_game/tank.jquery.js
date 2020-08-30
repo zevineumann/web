@@ -105,10 +105,10 @@ function jeep() {
 
 function component(elem, width, height, left) {
     this.width = width;
-    this.height = height;  
-    this.left = left;   
+    this.height = height;
+    this.left = left;
 	this.newPos = function() {
-		this.left = elem.css('margin-left');       
+		this.left = elem.css('margin-left');
     }
 
     this.crashWith = function(soldier) {
