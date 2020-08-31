@@ -20,7 +20,7 @@ function start_planes_timer() {
 }
 
 function chek() {
-	if (life < 1 ) game_over();
+	if (life == 0 ) game_over();
 }
 
 function game_over() {
