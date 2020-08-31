@@ -25,7 +25,7 @@ function chek() {
 
 function game_over() {
 	//$("#div1").fadeIn(6000);
-	location.replace("./game_over.html"/*?score=+score"*/)
+	location.replace("./game_over.html?score=+score")
 }
 
 function click_plane(elem) {
