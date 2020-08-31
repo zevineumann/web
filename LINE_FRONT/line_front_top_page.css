@@ -51,3 +51,13 @@ body {
 	content: " FRONT";
 	color: white;
 }
+
+.landscape {
+	position: fixed;
+}
+
+@media only screen and (orientation: landscape) {
+	.landscape {
+    display: none;
+  }
+}
