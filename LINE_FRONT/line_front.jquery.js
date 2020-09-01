@@ -9,10 +9,16 @@ $(document).ready(function(){
 		var cy = event.clientY;
 		bull = new bullet();
 		bull.shoot(cx, cy);
-	});	
-	start_planes_timer();
+	});
+	
+	setTimeout(fade,4000);
 	setInterval(chek, 50);
 });
+
+function fade() {
+	$('#h1').fadeOut(1000);
+	start_planes_timer();
+}
 
 function start_planes_timer() {
 	var random = (Math.floor(Math.random() * 4) + 2) * 1000;

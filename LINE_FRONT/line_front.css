@@ -12,6 +12,13 @@
 	background-color: black;
 }
 
+.h1 {
+	color: darkgrey;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	margin-top: 10%;
+}
+
 .bull {
 	width: 25;
 	height: 15;
@@ -61,6 +68,7 @@ body {
 	position: absolute;
 	border: 2px solid black;
 	border-radius: 8px;
+	text-shadow: 2px 2px black;
 }
 
 .div_life {
@@ -74,4 +82,5 @@ body {
 	position: absolute;
 	border: 2px solid black;
 	border-radius: 8px;
+	text-shadow: 2px 2px black;
 }
