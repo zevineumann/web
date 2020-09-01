@@ -96,7 +96,7 @@ function dis_bullet(elem) {
 function bullet() {
 	this.shoot = function(cx, cy) {
 		$("#div").after("<div class='triangle-up' id='bullet'></div>")
-		$("#bullet").css({"marginTop": screen.height+600, "marginLeft": screen.width / 2});
+		$("#bullet").css({"marginTop": screen.height+500, "marginLeft": screen.width / 2});
 		$("#bullet").animate({
 			"marginTop": cy,
 			"marginLeft": cx+-10,

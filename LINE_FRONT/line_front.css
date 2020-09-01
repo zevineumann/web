@@ -19,12 +19,6 @@
 	margin-top: 10%;
 }
 
-.bull {
-	width: 25;
-	height: 15;
-	position: fixed;
-}
-
 .smoke {
 	position: fixed;
 }
@@ -53,17 +47,13 @@ body {
 	background: none;
 }
 
-/*.score {
-	position:fixed;
-}*/
-
 .div_score {
 	position: fixed;
 	background-color: lightgray;
-	margin-left: 82%;
-    width: 18%;
+	margin-left: 81%;
+    width: 19%;
 	color: rgb(255, 165, 0);
-	text-align: center;
+	text-align: left;
 	bottom: 15px;
 	position: absolute;
 	border: 2px solid black;
