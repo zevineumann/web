@@ -26,12 +26,12 @@ function start_planes_timer() {
 }
 
 function chek() {
-	if (life == 0 ) game_over();
+	if (life < 1 ) game_over();
 }
 
 function game_over() {
 	//$("#div1").fadeIn(6000);
-	location.replace("./game_over.html?score=+score")
+	location.replace("./game_over.html?score= "+score);
 }
 
 function click_plane(elem) {
@@ -75,12 +75,12 @@ function component() {
 	}
 	
 	this.fly = function() {
-		$("#plane").animate({"height": '90px', 'width': '150px', 'marginTop': '-301px'},6000,function() {
+		$("#plane").animate({"height": '90px', 'width': '150px', 'marginTop': '-101px'},3000,'linear',function() {
 			//if plane pased
 			var toop = $(this).css('marginTop');
 			
 			if (toop > "-100px" && $(this).is(":visible") ) {
-				life = life+-1;
+				life--;
 				document.getElementById("life").innerHTML = life;
 			}
 		});
