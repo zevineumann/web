@@ -42,7 +42,6 @@ function click_plane(elem) {
 	$("#smoke").fadeOut(500);
 	score = score+50;
 	document.getElementById("score").innerHTML = score;
-	
 }
 
 function fly_plane() {
@@ -97,7 +96,7 @@ function bullet() {
 			"marginLeft": cx+-10,
 			'height': '10px',
 			'width' :'2px'
-		},350,function() {
+		},300,function() {
 			dis_bullet(this)
 		});
 		
