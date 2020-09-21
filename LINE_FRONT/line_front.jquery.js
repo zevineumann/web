@@ -104,5 +104,3 @@ function bullet() {
 	}
 	
 }
-
-if (score == 500) lev2();
