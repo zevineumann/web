@@ -22,7 +22,7 @@ function fade() {
 }
 
 function start_planes_timer() {
-	var random = (Math.floor(Math.random() * 4) + 0.2) * 1000;
+	var random = (Math.floor(Math.random() * 4) + 1) * 1000;
 	setTimeout(fly_plane, random);
 }
 
