@@ -12,7 +12,7 @@ $(document).ready(function(){
 	});
 	
 	setTimeout(fade,4000);
-	setInterval(chek, 50);
+	setInterval(chek, 500);
 });
 
 function fade() {
@@ -26,12 +26,7 @@ function start_planes_timer() {
 }
 
 function chek() {
-	if (life < 1 ) game_over();
-}
-
-function game_over() {
-	//$("#div1").fadeIn(6000);
-	location.replace("./game_over.html?score= "+score);
+	if (life < 1 ) location.replace("./game_over.html?score= "+score);
 }
 
 function click_plane(elem) {
