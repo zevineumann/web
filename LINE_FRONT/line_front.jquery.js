@@ -26,7 +26,7 @@ function start_planes_timer() {
 }
 
 function chek() {
-	if (life < 1 ) location.replace("./game_over.html?score= "+score);
+	if (life < 1 ) location.replace("game_over/game_over.html?score= "+score);
 }
 
 function click_plane(elem) {
