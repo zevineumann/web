@@ -37,7 +37,7 @@ function click_plane(elem) {
 	var planex = parseInt(planeex);
 	var planey = parseInt(planeey);
 	$(elem).remove();
-	$('#div').after('<img id="smoke" class="smoke" src="boom1.jpg">');
+	$('#div').after('<img id="smoke" class="smoke" src="boom1.png">');
 	$('#smoke').css({"marginTop": planey-70, "marginLeft": planex-50});
 	$("#smoke").fadeOut(500);
 	score = score+50;
