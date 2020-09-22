@@ -74,7 +74,7 @@ function component() {
 	}
 	
 	this.fly = function() {
-		$("#plane").animate({"height": '90px', 'width': '150px', 'marginTop': '-118px'},3000,'linear',function() {
+		$("#plane").animate({"height": '90px', 'width': '150px', 'marginTop': '-118px'},2900,'linear',function() {
 			//if plane pased
 			var toop = $(this).css('marginTop');
 			
