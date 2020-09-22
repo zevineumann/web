@@ -12,6 +12,26 @@
 	background-color: black;
 }
 
+.div {
+	background-color: black;
+	width: 55px;
+	height: 105px;
+	border-radius: 8px;
+	position: fixed;
+	margin-top: -15px;
+	border: 2px solid white;
+}
+
+.b_restart {
+	margin-top: 10px;
+	width: 53px;
+}
+
+.b_back {
+	margin-top: 10px;
+	width: 53px;
+}
+
 .h1 {
 	color: darkgrey;
 	text-shadow: 2px 2px black;
@@ -37,6 +57,13 @@ body {
 	background-size: cover;
 	position:fixed;
 	cursor: crosshair;
+}
+
+.talki {
+	height: 450px;
+	width: auto;
+	margin-left: -50px;
+	transform: rotate(-90deg)
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -74,3 +101,4 @@ body {
 	border-radius: 8px;
 	text-shadow: 2px 2px black;
 }
+

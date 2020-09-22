@@ -26,6 +26,10 @@ function start_planes_timer() {
 	setTimeout(fly_plane, random);
 }
 
+function restart() {
+	location.reload();
+}
+
 function chek() {
 	if (life < 1 ) location.replace("game_over/game_over.html?score= "+score);
 }
@@ -70,7 +74,7 @@ function component() {
 	}
 	
 	this.fly = function() {
-		$("#plane").animate({"height": '90px', 'width': '150px', 'marginTop': '-101px'},3000,'linear',function() {
+		$("#plane").animate({"height": '90px', 'width': '150px', 'marginTop': '-118px'},3000,'linear',function() {
 			//if plane pased
 			var toop = $(this).css('marginTop');
 			
@@ -82,6 +86,13 @@ function component() {
 		
 	}
 	
+}
+
+function click(event) {
+	var x = event.key;
+	if (x == "d" || x == "D") {
+		alert ("Hello world!");
+	}
 }
 
 function dis_bullet(elem) {
