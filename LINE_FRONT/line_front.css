@@ -46,7 +46,7 @@
 .triangle-up {
 	width: 25px;
 	height: 100px;
-	background-color: rgb(255, 255, 0);
+	background-color: red;
 	position: fixed;
 }
 
@@ -64,6 +64,13 @@ body {
 	width: auto;
 	margin-left: -50px;
 	transform: rotate(-90deg)
+}
+
+.blood {
+	position: fixed;
+	width: 100%;
+	height: auto;
+	margin-top: -100px;
 }
 
 ::-moz-selection { /* Code for Firefox */
