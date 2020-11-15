@@ -13,6 +13,6 @@ $(document).ready(function(){
 });
 
 function zevi() {
-	alert("ha ha try to take me off");
+	alert("חחח נסו להוריד אותי");
 }
 
