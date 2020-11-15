@@ -62,10 +62,15 @@ h1 {
 
 .button {
 	margin-top: 100px;
-	margin-left: 50px;
+	margin-left: 100px;
 }
 
-@media screen and (max-width: 1024px) {
+.button1 {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 1367px) {
 	.MoveButton {
 		display: none;
 	}

@@ -1,0 +1,111 @@
+
+.plane {
+	height: 5px;
+	width: 15px;
+	position: fixed;
+}
+
+.div1 {
+	width: 100%;
+	height: 100%;
+	display: none;
+	background-color: black;
+}
+
+.div {
+	background-color: black;
+	width: 55px;
+	height: 105px;
+	border-radius: 8px;
+	position: fixed;
+	margin-top: -15px;
+	border: 2px solid white;
+}
+
+.b_restart {
+	margin-top: 10px;
+	width: 53px;
+}
+
+.b_back {
+	margin-top: 10px;
+	width: 53px;
+}
+
+.h1 {
+	color: darkgrey;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.smoke {
+	position: fixed;
+}
+
+.triangle-up {
+	width: 25px;
+	height: 100px;
+	background-color: red;
+	position: fixed;
+}
+
+body {
+	background-image: url("sky.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	position:fixed;
+	cursor: crosshair;
+}
+
+.talki {
+	height: 450px;
+	width: auto;
+	margin-left: -50px;
+	transform: rotate(-90deg)
+}
+
+.blood {
+	position: fixed;
+	width: 100%;
+	height: auto;
+	margin-top: -100px;
+}
+
+::-moz-selection { /* Code for Firefox */
+	background: none;
+}
+
+::selection {
+	background: none;
+}
+
+.div_score {
+	position: fixed;
+	background-color: lightgray;
+	margin-left: 81%;
+    width: 19%;
+	color: rgb(255, 165, 0);
+	text-align: left;
+	bottom: 15px;
+	position: absolute;
+	border: 2px solid black;
+	border-radius: 8px;
+	text-shadow: 2px 2px black;
+}
+
+.div_life {
+	position: fixed;
+	background-color: lightgray;
+    width: 15%;
+	margin-left: -15px;
+	color: rgb(255, 165, 0);
+	text-align: center;
+	bottom: 15px;
+	position: absolute;
+	border: 2px solid black;
+	border-radius: 8px;
+	text-shadow: 2px 2px black;
+}
+

@@ -1,0 +1,74 @@
+
+.alert {
+	color:red;
+	text-align:center;
+	background-color:MediumSeaGreen;
+	font-family:Sofia;
+	text-shadow: 4px 4px 16px red;
+} 
+
+.smile{
+	text-align: center;
+	font-size: 60px;
+}
+
+.blue {
+	font-size: 25px;
+}
+
+.center {
+	text-align:center;
+	font-size: 25px;
+	border-radius:20px;
+	color:red;
+}
+
+legend {
+	background-color:black;
+}
+
+.fieldset {
+	background-color:rgb(120,120,120);
+	color:violet;
+	width:80%;
+	border-radius:20px;
+}
+
+.body {
+ 	background-image: url("IMG_3306.JPG");	
+	width: 98%;
+	height: 95%;
+}
+
+.button {
+	border-radius:20px;
+}	
+
+.round {
+	border-radius:5px;
+}	
+
+p.center {
+	text-align:center;
+	font-size: 25px;
+	color:red;
+	text-decoration:underline;
+}
+
+@media screen and (max-width: 600px) {
+	.alert {
+	font-size: 40px;
+	}
+	.center {
+	font-size: 30px;
+	}
+	.name {
+	font-size: 25px;
+	}
+	.round {
+	font-size: 25px;
+	}
+	.button {
+	font-size: 15px;
+	}
+}
