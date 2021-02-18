@@ -1,14 +1,14 @@
 
 .body {
-	background-color: lightgrey;
+	background-color: black;
 }
 
 .top_div {
-	background-color: lightblue;
+	/*background-color: darkblue;*/
 }
 
 .mid_div {
-	background-color: lightblue;
+	background-color: black;
 }
 
 .warning {
@@ -22,31 +22,35 @@
 h1 {
 	text-align: center;
 	font-size: 50px;
+	text-shadow: 0.4px 0.4px 4px blue;
 }
 
 .game {
 	margin-left: 40%;
-	color: red;
+	color: grey;
+	text-shadow: 0.4px 0.4px 5px blue;
 	font-size: 50px;
-	border: 15px solid green;
+	border: 15px solid darkblue;
 	padding: 10px;
 	border-radius: 25px;
 }
 
 .stuff {
 	margin-left: 67%;
-	color: green;
+	color: grey;
+	text-shadow: 0.4px 0.4px 5px blue;
 	font-size: 50px;
-	border: 15px solid red;
+	border: 15px solid darkblue;
 	padding: 10px;
 	border-radius: 25px;
 }
 
 .bug {
 	margin-left: 30%;
-	color: green;
+	color: darkblue;
 	font-size: 50px;
 	text-decoration: underline;
+	margin-right: 60%;
 }
 
 .div {
