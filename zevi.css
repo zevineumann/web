@@ -61,12 +61,13 @@ h1 {
 .MoveButton {
 	margin-top: -500px;
 	width: 200px;
-	height: 200px;	
+	height: 200px;
 }
 
 .button {
 	margin-top: 100px;
 	margin-left: 100px;
+	background-color: grey;
 }
 
 .button1 {
